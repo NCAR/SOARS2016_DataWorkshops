@@ -12,6 +12,10 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 | -       |         |
 
 
+## Resources
+
+[Workshop YouTube channel]()
+
 ## Workshop Details
 
 | Workshop / Date | Topics Covered |
