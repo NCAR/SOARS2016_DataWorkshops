@@ -16,8 +16,8 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 | Workshop / Date | Topics Covered |
 |---------------|----------------|
-| [#1 - May 27](workshops/1) |         |
-| [#2 - June 3](workshops/2) |         |
-| [#3 - June 10](workshops/3) |         |
-| [#4 - July 1](workshops/4) |         |
+| [#1 - May 27](workshop/1) |         |
+| [#2 - June 3](workshop/2) |         |
+| [#3 - June 10](workshop/3) |         |
+| [#4 - July 1](workshop/4) |         |
 
