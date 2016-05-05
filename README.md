@@ -13,8 +13,17 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 
 ## Resources
-
+### Watch
 [Workshop YouTube channel](https://www.youtube.com/user/SOARSProgram)
+
+### Listen
+
+
+### Read
+[Think Python](http://www.greenteapress.com/thinkpython/thinkpython.html)
+
+### Explore
+[Python for Geosciences Repository](http://nbviewer.jupyter.org/github/koldunovn/python_for_geosciences/)
 
 ## Workshop Details
 
