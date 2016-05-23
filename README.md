@@ -40,4 +40,4 @@ Continuously updated [list of resources](./workshop/resources.md) to use, add to
 * integrating data / code into your research writing
 * exporting notebook graphs, maps
 * notebook best practices and Github
-* LaTeX for scientific writing (if time/interest)
+* LaTeX for scientific writing (given time/interest)
