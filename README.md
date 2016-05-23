@@ -13,24 +13,31 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 
 ## Resources
-### Watch
-[Workshop YouTube channel](https://www.youtube.com/user/SOARSProgram)
-
-### Listen
+Continuously updated [list of resources](./workshop/resources.md) to use, add to, steal and learn from.
 
 
-### Read
-[Think Python](http://www.greenteapress.com/thinkpython/thinkpython.html)
-
-### Explore
-[Python for Geosciences Repository](http://nbviewer.jupyter.org/github/koldunovn/python_for_geosciences/)
 
 ## Workshop Details
 
-| Workshop / Date | Topics Covered |
-|---------------|----------------|
-| [#1 - May 27](workshop/1) |         |
-| [#2 - June 3](workshop/2) |         |
-| [#3 - June 10](workshop/3) |         |
-| [#4 - July 1](workshop/4) |         |
+### [Workshop 1 [May 27]](./workshop/1)
+* environment and tools check
+* understanding some of the basics of Python (types, data structures, iteration)
+* basics of file types (CSV, TSV, etc.)
+* processing text files in Python directly
 
+### [Workshop 2 [June 3]](./workshop/2)
+* introduction to Jupyter Notebooks (NB) and Github
+* scientific communication in the NB
+* loading and exploring data with Pandas in Jupyter NB
+* exploring Github (supplemental / after workshop)
+
+### [Workshop 3 [June 10]](./workshop/3)
+* more data exploration
+* statistical functions in Pandas and NumPy
+* introduction to making basic plots in seaborn, matplotlib and folium (for mapping)
+
+### [Workshop 4 [July 1]](./workshop/4)
+* integrating data / code into your research writing
+* exporting notebook graphs, maps
+* notebook best practices and Github
+* LaTeX for scientific writing (if time/interest)
