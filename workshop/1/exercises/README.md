@@ -1,6 +1,6 @@
 # Supplemental Exercises
 
-There is a file in `/data` called [sample_demo_weather_data_1981.csv](../data/samepl_demo_weather_data_1981.csv).  All the exercises below should be performed on that file
+There is a file in `/data` called [sample_demo_weather_data_1981.csv](../data/sample_demo_weather_data_1981.csv).  All the exercises below should be performed on that file
 
 For fun do the follow :
 
