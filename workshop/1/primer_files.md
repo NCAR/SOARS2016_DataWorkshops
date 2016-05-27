@@ -133,3 +133,53 @@ Now let's get back to files and introduce a few typical text file types.  Most o
 |CSV  |Comma Separated Values | `a, b, c`  |
 |TSV  |Tab Separated Values   | `a <tab> b <tab> c` |
 
+Python provides a library for specifically working with CSV files, which will greatly reduce the amount of work you will be doing to work with the files.  Later when we move to Pandas, we'll advance our knowledge even further and dispense with the pleasantries of caring about the details of the CSV altogether.
+
+For now, though, let's get a quick understanding of working with a CSV file.
+
+### The `csv` library
+
+When you are clear of the basics of files, you can forget what you know and move on to the `csv` library -- which takes even more work off your hands.  Essentially this library raises the bar a bit more and allows you to perform some more abstractions on the file.  In particular the library (despite its name) allows you to process CSV, TSV and any the xSV file that has a well known delimiter ('|', '~', etc.).
+
+The code will look a lot like your previous code, but with some extra niceties:
+
+    import csv
+    with open('../data/sample_data.txt') as f:
+        csv_reader = csv.reader(f, delimiter='\t') # necessary because the file is TAB delimited
+
+        for l in csv_reader:
+            print l
+
+Will give you something like:
+
+    ['120.04', '-42.8']
+    ['120.16', '-39.48']
+    ['120.25', '-37.67']
+    ['120.26', '-36.92']
+    ['120.26', '-36.7']
+    ['120.3', '-39.67']
+    ['120.34', '-37.69']
+    ['120.4', '-40.55']
+    ['120.4', '-36.37']
+    ...
+
+This may seem unremarkable but the advantage now is that we can assign the columns a name and then reference the data by name instead of index.  So using the DictReader` and optional parameter `fieldnames` we can give the fields whatever name we want and then access them by that name,
+
+    import csv
+    with open('../data/sample_data.txt') as f:
+        csv_reader = csv.DictReader(f, delimiter='\t', fieldnames=['lat', 'lon'])
+
+        for l in csv_reader:
+            print l['lat'] # instead of l[0]
+
+You might be wondering, **what if** the file already has a header row ... then we just omit the `fieldnames` and use the names in the header row:
+
+
+    import csv
+    with open('../data/sample_data.txt') as f:
+        csv_reader = csv.DictReader(f, delimiter='\t')
+
+        for l in csv_reader:
+            print l['lat'] # instead of l[0]
+
+Go check out the [Jupyter NB on file basics](./code/file_basics.ipynb) for more fun!
