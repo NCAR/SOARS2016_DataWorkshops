@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Data and Computing Workshop 1</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="reveal/css/reveal.css">
+	<link rel="stylesheet" href="reveal/css/theme/black.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="reveal/lib/js/html5shiv.js"></script>
+	<![endif]--></head>
+<!-- http://htmlcheats.com/reveal-js/reveal-js-tutorial-reveal-js-for-beginners/ -->
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background="./images/16939917735_96f547fa80_o.jpg">
+				<!-- image CCBY https://www.flickr.com/photos/photographingtravis/
+				https://www.flickr.com/photos/photographingtravis/16939917735/in/photolist-rNVvna-qRVxoo-7ktiRW-mMuSX-nMcJHN-5ssnF3-fgvrGW-pE7Ln8-c26tCq-4SVevS-pND7h9-fgvs15-8h3kmV-8h6A6j-51ayfS-taChqg-dTLKL-xZ2dR-9ZnfeR-d13UEQ-nrTSpw-bEk5s-8AKcg7-bEk6m-cVrYys-FKRxA-8b5cAc-6MYrSQ-4ybozZ-mMuSZ-6ZrqLz-2BDtG-b3TDG8-cj66b-8DRs27-dnnFa3-6Y4bny-DG2Dg-7mrSM4-65kCdP-6yodKa-6HyYMs-7mvMcS-8f3pg7-8RmUD-6vTfcs-fgvsas-eE6phM-8bn31V-eEcgtu
+				-->
+				<h1>WORKSHOP 1</h1>
+				<p><b>An (Crash Course) Introduction to Python</b></p>
+				<p>Keith E. Maull, PhD</p>
+				<p><h5>Presented 5-27-2016</h5></p>
+			</section>
+
+			<section>
+				<section id="fragments_1">
+						<h2>Welcome and Thank you,</h2>
+						<p class="fragment"><span>Today we're going to have <b>some fun</b></span></p>
+						<p class="fragment"><span>... and maybe learn some cool stuff.</span></p>
+						<h3 class="fragment"><span>The fun is a requirement, <br/>the cool stuff is extra.</span></h3>
+				</section>
+			</section>
+
+			<section data-markdown>
+			## What we're going to **try** to accomplish in 120 minutes:
+
+1. Check your installation environment (and fix it, if it is broken). [20-30m]
+2. Learn a little about [Github](https://github.com) and discover why it is cool. [20-30m]
+3. Learn a little about [Python](https://python.org) and show you what you're missing out on. [~55m]
+			</section>
+
+			<section>
+				<section>
+					<h2>Let's jump into it!</h2>
+				</section>
+
+				<section>
+					<h2>Check 0: Your computer</h2>
+					<p>Let's confirm connectivity, permissions, etc.</p>
+				</section>
+
+				<section>
+					<h2>Check 1: Tools and Environment</h2>
+					<section data-markdown>
+						## Python 2.7.11 / Anaconda
+						* Is it installed?
+						* Does it work?
+					</section>
+				</section>
+
+				<section>
+					<h2>Check 1: Tools and Environment</h2>
+					<section data-markdown>
+						## PyCharm
+						* Do you have it?
+						* Does it work?
+						* Can we run a program?
+					</section>
+				</section>
+
+				<section data-markdown>
+					# Check 2: Got Github?
+					![Github](./images/Octocat_sm.png)
+				</section>
+
+				<section data-markdown >
+					# Github : The 10 minute primer
+
+					* revision control,
+					* collaboration,
+					* for more than code.
+
+					[Let's Explore!](https://github.com/explore)
+				</section>
+
+			</section>
+
+
+			<section data-markdown>
+				## A Brief Introduction to Python
+
+				* We're going to learn a few basics,
+				* We're going to work in some file I/O data stuff,
+				* There are some exercise to **Go Play**.
+
+				[Let's Roll](https://github.com/NCAR/SOARS2016_DataWorkshops)
+			</section>
+
+
+			<section data-background="./images/4737927513_71d6566eba_o.jpg">
+				<!-- image CCBY https://www.flickr.com/photos/28698026@N05/
+				https://www.flickr.com/photos/28698026@N05/4737927513/in/photolist-8dF7Mp-hjX5ng-nE3os5-9QK9FA-aD49ja-73qXut-hynq71-oMvq4n-7SdzAB-ekaBvo-55pMx4-5tdjG1-e6YZQW-7SgLGm-89QfpH-qc7NWs-7SgQou-4U7XwW-7NT92W-6knphN-5xSda6-8dJnho-qcaW5H-dBjCgx-bWcF4J-4YwDTM-eGpSUU-oEtuDq-czLmuh-pFeDrs-4mobGJ-67vCqs-76iqYn-bWcG3N-hhVj1L-53RVwB-hNw7RC-cKqjq-cKmnU-7SgN5S-bvgpAF-pDiyrC-duakd3-7SgMG7-dpx5gk-cuEcaN-nttSBt-bWcFvE-9Y6pgh-eg3C3c
+				-->
+				<p>BE BRAVE, GO PLAY!</p>
+			</section>
+
+
+
+
+		</div>
+	</div>
+
+	<script src="reveal/lib/js/head.min.js"></script>
+	<script src="reveal/js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+				{ src: 'reveal/plugin/notes/notes.js', async: true }
+			]
+		});
+	</script>
+</body>
+</html>
