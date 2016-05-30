@@ -13,7 +13,7 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 
 ## Resources
-Continuously updated [list of resources](./workshop/resources.md) to use, add to, steal and learn from.
+Continuously updated [list of resources](./workshop/resources) to use, add to, steal and learn from.
 
 
 
