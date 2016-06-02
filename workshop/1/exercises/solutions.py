@@ -1,17 +1,28 @@
 import csv
 
-# Write the Python script that opens that CSV file and emits the `month` and `day` columns.
+# EXERCISE 1 : Write the Python script that opens that CSV file and emits the `month` and `day` columns.
 def  print_columns(cols):
     with open("../data/sample_demo_weather_data_1981.csv") as f:
         csvFile = csv.DictReader(f)
 
-        # print [for c in cols True if 'year' in csvFile.fieldnames else False]
+        '''
+            TRY THIS IDIOM :
+                all( [a_list_of_truth_values] )
+
+            What do you think
+                any( [a_list_of_truth_values] )
+            does?
+
+            Learn more:
+                https://docs.python.org/2/library/functions.html#all
+                https://docs.python.org/2/library/functions.html#any
+        '''
         if all([c in csvFile.fieldnames for c in cols]):
             for l in csvFile:
                 print ", ".join([l.get(c) for c in cols])
 
 
-# Find the bounding box for the lat and lon data in the CSV file; that is, find the maximum and minumum longitude and latitude .  Your program should just emit 4 numbers. HINT: You may need to use the Python built-in function `float()` to properly do the calculations (see [Python docs about float](https://docs.python.org/2/library/functions.html#float)).
+# EXERCISE 2 : Find the bounding box for the lat and lon data in the CSV file; that is, find the maximum and minumum longitude and latitude .  Your program should just emit 4 numbers. HINT: You may need to use the Python built-in function `float()` to properly do the calculations (see [Python docs about float](https://docs.python.org/2/library/functions.html#float)).
 def get_bounding_box():
     with open("../data/sample_demo_weather_data_1981.csv") as f:
         csvFile = csv.DictReader(f)
@@ -37,7 +48,7 @@ def get_bounding_box():
         print max_lat, min_lat, max_lon, min_lon
 
 
-# Find out the frequency of measurements by month -- that is how many data points do we have by month?  HINT: A dictionary will be your friend.  Your program should emit something like this:
+# EXERCISE 3 : Find out the frequency of measurements by month -- that is how many data points do we have by month?  HINT: A dictionary will be your friend.  Your program should emit something like this:
 def get_frequency(col='month'):
     freq_dict = {}
 
@@ -63,6 +74,8 @@ def get_frequency(col='month'):
 
 
 ''''
+EXERCISE 4 :
+
 "Bad" data is all around us ... for now let's define "bad" as data that seems
 unusually outside the average of the data we have.  Because the
 file is so small, we might be able to do this by eyeballing it, but instead,
