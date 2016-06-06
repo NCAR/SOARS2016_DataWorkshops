@@ -29,3 +29,8 @@ A variety of resources will be used throughout the workshops, the majority will 
 | [Blog] | [DrClimate Blog](https://drclimate.wordpress.com)| A blog dedicated to meterology, climatology and oceanography; lots of interesting posts about code Python, open research, etc. You can also check out the [DrClimate Github repo]().|
 | [Website] | [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/) | A nice introductory Python programming tutorial from [Software Carpentry](http://swcarpentry.github.io/). |
 | [Article] |   [Seven Ways To Use Github That Aren't Coding](http://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding/#awesm=~oEgJ8sjfPQIdSo) | Interesting article about some non-code uses of the Github platform. |
+| [Cheatsheet] | [LaTeX Cheatsheet](http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf) | One of the oldie but goodies -- and a resource that has save me plenty of times in the past! |
+| [Online LaTeX editor] | [Overleaf](https://www.overleaf.com/) | If you're at all interested in LaTeX - give this one a try and skip the local install for now. |
+| [Online LaTeX editor] | [Papeeria](https://papeeria.com/) | Online editor similar to the others. |
+| [Online LaTeX editor] | [Authorea](https://www.authorea.com/) | Online LaTeX editor that promotes collaboration and open publication (science). |
+| [Online LaTeX editor] | [WriteLaTeX](https://www.writelatex.com/) | Online LaTeX editor. |
