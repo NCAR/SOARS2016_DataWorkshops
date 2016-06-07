@@ -1,6 +1,17 @@
 # WORKSHOP 2
 > The supreme accomplishment is to blur the line between work and play. ~ Arnold J. Toynbee
 
+## Goals
+* quick review of [exercises](https://github.com/NCAR/SOARS2016_DataWorkshops/tree/master/workshop/1/exercises) and my proposed [solutions]((https://github.com/NCAR/SOARS2016_DataWorkshops/tree/master/workshop/1/exercises/solutions.py))
+* [Pandas](https://pandas.pydata.org) at a high level
+* [Jupyter Notebooks](https://jupyter.org) (how to invoke from PyCharm + how to invoke from command line)
+* [Series](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#series) + [Dataframes](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe)
+* loading data into dataframes
+* [indexing, slicing and filtering](http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-and-selecting-data) a Dataframe to get the data of interest
+* basic stats operations ([describe()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html#pandas.DataFrame.describe), [mean()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.mean.html#pandas.DataFrame.mean), [median()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.median.html#pandas.DataFrame.median), etc.)
+* [matplotlib](http://matplotlib.org/) (if there is time)
+
+
 ## Tools
 In this workshop we're going to go little deeper into Python for scientific computing.  In particular, we're going to talk about Jupyter Notebooks and Pandas.
 
