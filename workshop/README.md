@@ -7,7 +7,7 @@ Before getting started you will need to install Python, PyCharm and a few plugin
 For the majority of the workshops (and beyond), it would be best to install the full Python distribution called [Anaconda](https://www.continuum.io/downloads).  It will include the majority of libraries you will need to do scientific computing, math and others.  If for some reason Anaconda fails to install, a vanilla Python 2.7.11 ([Win or OSX Download here](https://www.python.org/downloads/release/python-2711/)) will do.
 
 Things to remember:
-* use the 64bit version of the installation
+* use the 64bit Python 2.7.11 version of the installation
 * the installation will take some time, so try not to interrupt it as it is working
 
 
