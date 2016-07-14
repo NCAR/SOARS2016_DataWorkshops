@@ -1,5 +1,5 @@
 # WORKSHOP 2
-> The supreme accomplishment is to blur the line between work and play. ~ Arnold J. Toynbee
+> The supreme accomplishment is to blur the line between work and play. ~ Arnold J. Toynbee (1889 - 1975)
 
 ## Goals
 * quick review of [exercises](https://github.com/NCAR/SOARS2016_DataWorkshops/tree/master/workshop/1/exercises) and my proposed [solutions]((https://github.com/NCAR/SOARS2016_DataWorkshops/tree/master/workshop/1/exercises/solutions.py))
