@@ -9,13 +9,11 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 | Package | Purpose |
 |:-------:|---------|
-| -       |         |
+| Folium  | Interactive mapping |
 
 
 ## Resources
 Continuously updated [list of resources](./workshop/resources) to use, add to, steal and learn from.
-
-
 
 ## Workshop Details
 
@@ -29,15 +27,13 @@ Continuously updated [list of resources](./workshop/resources) to use, add to, s
 * introduction to Jupyter Notebooks (NB) and Github
 * scientific communication in the NB
 * loading and exploring data with Pandas in Jupyter NB
-* exploring Github (supplemental / after workshop)
+* exploring Github
 
 ### [Workshop 3 [June 10]](./workshop/3)
 * more data exploration
 * statistical functions in Pandas and NumPy
-* introduction to making basic plots in seaborn, matplotlib and folium (for mapping)
+* introduction to making basic plots in pandas
 
-### [Workshop 4 [July 1]](./workshop/4)
-* integrating data / code into your research writing
-* exporting notebook graphs, maps
-* notebook best practices and Github
-* LaTeX for scientific writing (given time/interest)
+### [Workshop 4 [July 15]](./workshop/4)
+* exploratory data analysis with the mosquito trapping and weather data
+* introduction to folium for interacting maps and data display
