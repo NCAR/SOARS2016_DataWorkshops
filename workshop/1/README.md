@@ -1,6 +1,6 @@
 # WORKSHOP 1
 
-> Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.  ~ Francis of Assisi
+> Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.  ~ Francis of Assisi (1182 - 1226)
 
 ## Tools
 In this workshop we're going to learn a little about the tools and language we'll repeatedly access through the summer.  First on to the tool chain we're going to work with :
