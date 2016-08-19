@@ -13,12 +13,17 @@ A variety of resources will be used throughout the workshops, the majority will 
 
 
 ### Read
+#### Books
 |   | Thing   | Summary |
 |---|---------|---------|
 | [Book] | [Think Python](http://www.greenteapress.com/thinkpython/thinkpython.html)| An excellent place to start for the Pythonista wannabe. |
 | [Book] | [A Hands-On Introduction to Using Python in the Atmospheric and Oceanic Sciences](http://www.johnny-lin.com/pyintro/)|A remarkable resource specifically geared toward geoscience disciplines.  The first edition of the book is a free download.  Lin JW-B (2012). _A hands on introduction to using Python in the atmospheric and oceanic sciences._ ISBN: 978-1300076162.  |
-| [Article] |   [Seven Ways To Use Github That Aren't Coding](http://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding/#awesm=~oEgJ8sjfPQIdSo) | Interesting article about some non-code uses of the Github platform. |
 
+#### Articles
+|   | Thing   | Summary |
+|---|---------|---------|
+| [Article] |   [Seven Ways To Use Github That Aren't Coding](http://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding/#awesm=~oEgJ8sjfPQIdSo) | Interesting article about some non-code uses of the Github platform. |
+| [Article] | [The FAIR Guiding Principles for scientific data management and stewardship](http://www.nature.com/articles/sdata201618) | An article worth reading!  The principles introduced here will set the stage for the way science will be done (very soon) surrounding software and data! |
 
 ### Explore
 
