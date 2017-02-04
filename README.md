@@ -4,7 +4,7 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 ## Requirements
 * [Anaconda](https://www.continuum.io/downloads) data analysis full installation is recommended
-* (optional only if Anaconda fails to install ) a vanilla Python 2.7.11 [Win or OSX Download here](https://www.python.org/downloads/release/python-2711/)
+* (optional only if Anaconda fails to install ) a vanilla Python 2.7.12 [Win or OSX Download here](https://www.python.org/downloads/release/python-2712/)
 * An editor (recommendation: [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download))
 
 | Package | Purpose |
