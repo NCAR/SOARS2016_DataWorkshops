@@ -17,24 +17,27 @@ Continuously updated [list of resources](./workshop/resources) to use, add to, s
 
 ## Workshop Details
 
-### [Workshop 1 [May 27]](./workshop/1)
+All of the workshops files are either in `.ipynb` or `md` format.  The core workshop files are best viewer in Jupyter Notebooks and it is **recommended you view files on Jupyter's NBViewer**.
+
+
+### [Workshop 1 [May 27]](./workshop/1) [(View with nbviewer)](https://nbviewer.jupyter.org/github/NCAR/SOARS2016_DataWorkshops/blob/master/workshop/1/ws01a_overview.ipynb)
 * environment and tools check
 * understanding some of the basics of Python (types, data structures, iteration)
 * basics of file types (CSV, TSV, etc.)
 * processing text files in Python directly
 
-### [Workshop 2 [June 3]](./workshop/2)
+### [Workshop 2 [June 3]](./workshop/2) [(View with nbviewer)](https://nbviewer.jupyter.org/github/NCAR/SOARS2016_DataWorkshops/blob/master/workshop/2/ws02a_overview.ipynb)
 * introduction to Jupyter Notebooks (NB) and Github
 * scientific communication in the NB
 * loading and exploring data with Pandas in Jupyter NB
 * exploring Github
 
-### [Workshop 3 [June 10]](./workshop/3)
+### [Workshop 3 [June 10]](./workshop/3) [(View with nbviewer)](https://nbviewer.jupyter.org/github/NCAR/SOARS2016_DataWorkshops/blob/master/workshop/3/ws03a_overview.ipynb)
 * more data exploration
 * statistical functions in Pandas and NumPy
 * introduction to making basic plots in pandas
 
-### [Workshop 4 [July 15]](./workshop/4)
+### [Workshop 4 [July 15]](./workshop/4) [(View with nbviewer)](https://nbviewer.jupyter.org/github/NCAR/SOARS2016_DataWorkshops/blob/master/workshop/4/ws04a_intro.ipynb)
 * exploratory data analysis with the mosquito trapping and weather data
 * introduction to folium for interacting maps and data display
 
