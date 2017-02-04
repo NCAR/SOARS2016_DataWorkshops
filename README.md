@@ -4,7 +4,7 @@ The purpose of these workshops is to learn some of the tools and techniques for 
 
 ## Requirements
 * [Anaconda](https://www.continuum.io/downloads) data analysis full installation is recommended
-* (optional only if Anaconda fails to install ) a vanilla Python 2.7.11 [Win or OSX Download here](https://www.python.org/downloads/release/python-2711/)
+* (optional only if Anaconda fails to install ) a vanilla Python 2.7.12 [Win or OSX Download here](https://www.python.org/downloads/release/python-2712/)
 * An editor (recommendation: [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download))
 
 | Package | Purpose |
@@ -37,3 +37,8 @@ Continuously updated [list of resources](./workshop/resources) to use, add to, s
 ### [Workshop 4 [July 15]](./workshop/4)
 * exploratory data analysis with the mosquito trapping and weather data
 * introduction to folium for interacting maps and data display
+
+## License
+The work in this repo is licensed under Creative Commons 3.0 CC BY-SA.
+
+![Attribution-ShareAlike CC BY-SA](https://licensebuttons.net/l/by-sa/3.0/88x31.png)

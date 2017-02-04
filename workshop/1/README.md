@@ -11,7 +11,7 @@ The focus of this workshop is on
 | [A brief Python intro](ws01b_intro.ipynb) | Not thorough or complete, but enough to get you on your way if you are familiar with a single language already.  Resources at the end if you don't. |
 | [Python strings](ws01c_strings.ipynb) | A brief introduction to basic string manipulation in Python. |
 | [Git and Github for Open Source Software development](ws01d_github.ipynb) | Understanding how Github works to help share your work, and also organize it! |
-| [Files in Python](ws01d_files.ipynb) | Learning how to open and iterate over files, if you need to get down to it on your own for data shaping, munging, cleaning or other pre-processing tasks. |
+| [Files in Python](ws01e_files.ipynb) | Learning how to open and iterate over files, if you need to get down to it on your own for data shaping, munging, cleaning or other pre-processing tasks. |
 
 ## Resources
 
