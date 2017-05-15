@@ -40,8 +40,11 @@ All of the workshops files are either in `.ipynb` or `md` format.  The core work
 ### [Workshop 4 [July 15]](./workshop/4) [(View with nbviewer)](https://nbviewer.jupyter.org/github/NCAR/SOARS2016_DataWorkshops/blob/master/workshop/4/ws04a_intro.ipynb)
 * exploratory data analysis with the mosquito trapping and weather data
 * introduction to folium for interacting maps and data display
+## Say Thanks!
+If you find this repo useful for any purpose at all, [![then drop me a Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kmaull-ucar)
 
 ## License
 The work in this repo is licensed under Creative Commons 3.0 CC BY-SA.
 
 ![Attribution-ShareAlike CC BY-SA](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+
